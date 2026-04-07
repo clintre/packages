@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : texinfo
-version    : '7.2'
-release    : 22
+version    : '7.3'
+release    : 23
 source     :
-    - https://ftpmirror.gnu.org/gnu/texinfo/texinfo-7.2.tar.xz : 0329d7788fbef113fa82cb80889ca197a344ce0df7646fe000974c5d714363a6
+    - https://ftp.gnu.org/gnu/texinfo/texinfo-7.3.tar.xz : 51f74eb0f51cfa9873b85264dfdd5d46e8957ec95b88f0fb762f63d9e164c72e
 homepage   : https://www.gnu.org/software/texinfo
 license    : GPL-3.0-or-later
 component  : system.devel
@@ -11,6 +11,7 @@ summary    : texinfo (Documentation format used by GNU)
 description: |
     textinfo is the documentation format used by the GNU project, invented by Richard Stallman and Bob Chassell. It is used to take a single source file and produce various outputs such as dvi, html, and pdf.
 builddeps  :
+    - perl
     - pkgconfig(libcrypt)
 rundeps    :
     - perl
@@ -20,3 +21,4 @@ build      : |
     %make
 install    : |
     %make_install
+    %install_license COPYING
