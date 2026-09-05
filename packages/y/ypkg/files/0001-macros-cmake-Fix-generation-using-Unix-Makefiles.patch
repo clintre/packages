@@ -1,0 +1,29 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Evan Maddock <maddock.evan@vivaldi.net>
+Date: Sat, 5 Sep 2026 18:03:39 -0400
+Subject: [PATCH] macros/cmake: Fix generation using Unix Makefiles
+
+Signed-off-by: Evan Maddock <maddock.evan@vivaldi.net>
+---
+ data/macros/actions/cmake.yaml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/data/macros/actions/cmake.yaml b/data/macros/actions/cmake.yaml
+index fc6eee9..c200ec9 100644
+--- a/data/macros/actions/cmake.yaml
++++ b/data/macros/actions/cmake.yaml
+@@ -29,12 +29,12 @@ defines:
+         -DCMAKE_INSTALL_LIBDIR="lib%LIBSUFFIX%" \
+         -DCMAKE_INSTALL_LIBEXECDIR=lib%LIBSUFFIX%/${package} \
+         -DCMAKE_INSTALL_PREFIX=%PREFIX% \
+-        -DCMAKE_LIB_SUFFIX=%LIBFUFFIX%
++        -DCMAKE_LIB_SUFFIX=%LIBSUFFIX%
+ 
+     - options_cmake_ninja: |
+         -G Ninja \
+         %options_cmake%
+ 
+     - options_cmake_make: |
+-        -G \"Unix Makefiles\" \
++        -G "Unix Makefiles" \
+         %options_cmake%
