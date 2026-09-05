@@ -3,8 +3,8 @@
         <Name>xiphos</Name>
         <Homepage>https://xiphos.org/</Homepage>
         <Packager>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>GPL-2.0-only</License>
         <PartOf>office</PartOf>
@@ -367,12 +367,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="38">
-            <Date>2026-08-31</Date>
+        <Update release="39">
+            <Date>2026-09-05</Date>
             <Version>4.4.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
