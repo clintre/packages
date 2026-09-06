@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kicad
-version    : 10.0.5
-release    : 55
+version    : 10.0.6
+release    : 56
 source     :
-    - https://github.com/KiCad/kicad-source-mirror/archive/refs/tags/10.0.5.tar.gz : 6fc98124e93585ed34ce29a58afe63e67356982b0860b1306ac3e825a8972362
+    - https://github.com/KiCad/kicad-source-mirror/archive/refs/tags/10.0.6.tar.gz : 8b236345688d4f2a3d37a9ba8ab4efb4ce6651da40f40b835966df40fd17014c
 homepage   : https://www.kicad.org/
 license    : GPL-3.0-or-later
 component  : office.scientific
@@ -42,15 +42,15 @@ rundeps    :
     - ngspice-devel
 clang      : true
 setup      : |
-    %cmake -B build \
+    %cmake \
         -DKICAD_USE_EGL=TRUE \
         -DKICAD_SCRIPTING_WXPYTHON=OFF \
         -DKICAD_USE_OCE=OFF \
         -DKICAD_USE_OCC=ON \
         -DKICAD_I18N_UNIX_STRICT_PATH=ON
 build      : |
-    %make -C build
+    %cmake_build
 install    : |
-    %make_install -C build
+    %cmake_install
     %install_license LICENSE*
     rm -rf $installdir/usr/share/mimelnk
