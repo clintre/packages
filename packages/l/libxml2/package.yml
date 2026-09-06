@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : libxml2
-version    : 2.15.3
-release    : 63
+version    : 2.15.4
+release    : 64
 source     :
-    - https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.3.tar.xz : 78262a6e7ac170d6528ebfe2efccdf220191a5af6a6cd61ea4a9a9a5042c7a07
+    - https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.4.tar.xz : 98087fd181d9070724f3fbc65c7377db03038eb92bd882374daff44940138821
     - https://www.w3.org/XML/Test/xmlts20130923.tar.gz#xmlts.tar.gz : 9b61db9f5dbffa545f4b8d78422167083a8568c59bd1129f94138f936cf6fc1f
     # Don't delete this source, just comment it out if it's not needed. The build recipe accounts for it possibly not existing
     - https://download.gnome.org/sources/libxml2/2.13/libxml2-2.13.9.tar.xz#compat.tar.xz : a2c9ae7b770da34860050c309f903221c67830c86e4a7e760692b803df95143a
