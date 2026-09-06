@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kicad-packages3d
-version    : 10.0.5
-release    : 23
+version    : 10.0.6
+release    : 24
 source     :
-    - https://gitlab.com/kicad/libraries/kicad-packages3D/-/archive/10.0.5/kicad-packages3D-10.0.5.tar.gz : 14cd7c1b334a16c8437d6082776fd608b361a5fd92213f8cb763851f675910a5
+    - https://gitlab.com/kicad/libraries/kicad-packages3D/-/archive/10.0.6/kicad-packages3D-10.0.6.tar.gz : def2208ec7e4693642c172d525652d95d7b706f3631930b7c754c559c0ad190a
 homepage   : https://www.kicad.org/
 license    : CC-BY-SA-4.0
 component  : office.scientific
@@ -13,5 +13,5 @@ description: |
 setup      : |
     %cmake
 install    : |
-    %make_install
+    %cmake_install
     %install_license LICENSE.md

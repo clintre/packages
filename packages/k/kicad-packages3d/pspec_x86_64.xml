@@ -741,11 +741,17 @@
             <Path fileType="data">/usr/share/kicad/3dmodels/Capacitor_THT.3dshapes/C_Rect_L7.0mm_W6.0mm_P5.00mm.step</Path>
             <Path fileType="data">/usr/share/kicad/3dmodels/Capacitor_THT.3dshapes/C_Rect_L7.0mm_W6.5mm_P5.00mm.step</Path>
             <Path fileType="data">/usr/share/kicad/3dmodels/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W11.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.step</Path>
+            <Path fileType="data">/usr/share/kicad/3dmodels/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W2.5mm_P5.00mm.step</Path>
             <Path fileType="data">/usr/share/kicad/3dmodels/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.step</Path>
             <Path fileType="data">/usr/share/kicad/3dmodels/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.step</Path>
+            <Path fileType="data">/usr/share/kicad/3dmodels/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W3.5mm_P5.00mm.step</Path>
             <Path fileType="data">/usr/share/kicad/3dmodels/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.step</Path>
+            <Path fileType="data">/usr/share/kicad/3dmodels/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W4.5mm_P5.00mm.step</Path>
             <Path fileType="data">/usr/share/kicad/3dmodels/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.step</Path>
+            <Path fileType="data">/usr/share/kicad/3dmodels/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W5.0mm_P5.00mm.step</Path>
             <Path fileType="data">/usr/share/kicad/3dmodels/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.step</Path>
+            <Path fileType="data">/usr/share/kicad/3dmodels/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W6.0mm_P5.00mm.step</Path>
+            <Path fileType="data">/usr/share/kicad/3dmodels/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W7.2mm_P5.00mm.step</Path>
             <Path fileType="data">/usr/share/kicad/3dmodels/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.step</Path>
             <Path fileType="data">/usr/share/kicad/3dmodels/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W8.5mm_P5.00mm_FKP2_FKP2_MKS2_MKP2.step</Path>
             <Path fileType="data">/usr/share/kicad/3dmodels/Capacitor_THT.3dshapes/C_Rect_L7.5mm_W6.5mm_P5.00mm.step</Path>
@@ -7269,9 +7275,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="23">
-            <Date>2026-07-25</Date>
-            <Version>10.0.5</Version>
+        <Update release="24">
+            <Date>2026-09-06</Date>
+            <Version>10.0.6</Version>
             <Comment>Packaging update</Comment>
             <Name>David Harder</Name>
             <Email>david@davidjharder.ca</Email>
