@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : linux-firmware
-version    : '20260810'
-release    : 108
+version    : '20260910'
+release    : 109
 source     :
-    - git|https://gitlab.com/kernel-firmware/linux-firmware.git : 2135b2f7714a3a514c989b9728f51f36144cab6f
+    - git|https://gitlab.com/kernel-firmware/linux-firmware.git : eeccccbe83daf22e1931e3557ba05b2c02427e4e
 license    :
     - GPL-2.0-or-later
     - Distributable
@@ -31,22 +31,6 @@ rundeps    :
     - linux-firmware-mlxsw-spectrum
     - linux-firmware-qcom
 setup      : |
-    _backports=(
-        # amdgpu crashes
-        # https://gitlab.archlinux.org/archlinux/packaging/packages/linux-firmware/-/work_items/50
-        9305ccd3e07e6c5c2a34f84fb4a056fc47840ad3
-    )
-
-    for c in "${_backports[@]}"; do
-        echo Backporting $(git log --oneline -1 "${c}")
-        git cherry-pick -n "${c}"
-    done
-
-    # amdgpu decoding glitches
-    # https://gitlab.archlinux.org/archlinux/packaging/packages/linux-firmware/-/work_items/49
-    git checkout 20260622 amdgpu/*vcn*
-    git diff --staged --stat
-
 #     git config --global user.email "solus@getsol.us"
 #     git config --global user.name "Solus"
 

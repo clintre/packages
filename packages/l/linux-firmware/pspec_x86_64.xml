@@ -19,11 +19,11 @@
         <Description xml:lang="en">Free and non-free firmware required for enablement of many devices and hardware</Description>
         <PartOf>kernel</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="108">linux-firmware-amdgpu</Dependency>
-            <Dependency releaseFrom="108">linux-firmware-intel-graphics</Dependency>
-            <Dependency releaseFrom="108">linux-firmware-libertas</Dependency>
-            <Dependency releaseFrom="108">linux-firmware-mlxsw-spectrum</Dependency>
-            <Dependency releaseFrom="108">linux-firmware-qcom</Dependency>
+            <Dependency releaseFrom="109">linux-firmware-amdgpu</Dependency>
+            <Dependency releaseFrom="109">linux-firmware-intel-graphics</Dependency>
+            <Dependency releaseFrom="109">linux-firmware-libertas</Dependency>
+            <Dependency releaseFrom="109">linux-firmware-mlxsw-spectrum</Dependency>
+            <Dependency releaseFrom="109">linux-firmware-qcom</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="data">/lib64/firmware/1534-2-0x8.bin.zst</Path>
@@ -1421,6 +1421,11 @@
             <Path fileType="data">/lib64/firmware/cirrus/cs35l41-dsp1-spk-prot-104318d3-spkid1-l0.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l41-dsp1-spk-prot-104318d3-spkid1-r0.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l41-dsp1-spk-prot-104318d3.wmfw.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l41-dsp1-spk-prot-104319f4-spkid0-l0.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l41-dsp1-spk-prot-104319f4-spkid0-r0.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l41-dsp1-spk-prot-104319f4-spkid1-l0.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l41-dsp1-spk-prot-104319f4-spkid1-r0.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l41-dsp1-spk-prot-104319f4.wmfw.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l41-dsp1-spk-prot-10431a63-spkid0-l0.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l41-dsp1-spk-prot-10431a63-spkid0-l0.bincfg.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l41-dsp1-spk-prot-10431a63-spkid0-r0.bin.zst</Path>
@@ -1853,6 +1858,11 @@
             <Path fileType="data">/lib64/firmware/cirrus/cs35l54-b0-dsp1-misc-103c8e1a-amp1.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l54-b0-dsp1-misc-103c8e1a-amp2.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l54-b0-dsp1-misc-103c8e1a.wmfw.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l54-b0-dsp1-misc-103c900c-amp1.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l54-b0-dsp1-misc-103c900c-amp2.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l54-b0-dsp1-misc-103c900c-amp3.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l54-b0-dsp1-misc-103c900c-amp4.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l54-b0-dsp1-misc-103c900c.wmfw.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp1.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp2.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp3.bin.zst</Path>
@@ -2075,6 +2085,9 @@
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10431c63-spkid1-amp1.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10431c63-spkid1-amp2.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10431c63-spkid1.wmfw.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10431c74-l2u0.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10431c74-l2u1.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10431c74.wmfw.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10431df3-amp1.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10431df3-amp2.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10431df3-amp3.bin.zst</Path>
@@ -2186,9 +2199,12 @@
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa391e-spkid0-amp1.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa391e-spkid0-amp2.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa391e-spkid0.wmfw.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa3921-amp1.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa3921-amp2.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa3921-spkid1-amp1.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa3921-spkid1-amp2.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa3921-spkid1.wmfw.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa3921.wmfw.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa392c-spkid1-amp1.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa392c-spkid1-amp2.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa392c-spkid1.wmfw.zst</Path>
@@ -2241,6 +2257,15 @@
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e53-spkid3-ampl.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e53-spkid3-ampr.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e53-spkid3.wmfw.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid1-ampl.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid1-ampr.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid1.wmfw.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid2-ampl.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid2-ampr.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid2.wmfw.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid3-ampl.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid3-ampr.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid3.wmfw.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56/CS35L56_Rev3.11.11.1.wmfw.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56/CS35L56_Rev3.11.11.wmfw.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l56/CS35L56_Rev3.11.16.wmfw.zst</Path>
@@ -2722,6 +2747,30 @@
             <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid3-04-l3u1.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid3-04-l3u3.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid3.wmfw.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid0-02-l1u1.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid0-02-l1u3.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid0.wmfw.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid1-02-l1u1.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid1-02-l1u3.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid1.wmfw.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid2-02-l1u1.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid2-02-l1u3.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid2.wmfw.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid3-02-l1u1.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid3-02-l1u3.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid3.wmfw.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid0-05-l1u1.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid0-05-l1u3.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid0.wmfw.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid1-05-l1u1.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid1-05-l1u3.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid1.wmfw.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid2-05-l1u1.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid2-05-l1u3.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid2.wmfw.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid3-05-l1u1.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid3-05-l1u3.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid3.wmfw.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-17aa2352-l2u0.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-17aa2352-l2u1.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-17aa2352.wmfw.zst</Path>
@@ -2882,6 +2931,7 @@
             <Path fileType="data">/lib64/firmware/intel/avs/hda-808628xx-3ep-tplg.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/avs/hda-generic-1ep-tplg.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/avs/hda-generic-tplg.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/intel/avs/lkf/dsp_basefw.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/avs/max98357a-tplg.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/avs/max98373-tplg.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/avs/max98927-tplg.bin.zst</Path>
@@ -2948,13 +2998,9 @@
             <Path fileType="data">/lib64/firmware/intel/ibt-00a0-01a1-iml.sfi.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/ibt-00a0-01a1-pci.ddc.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/ibt-00a0-01a1-pci.sfi.zst</Path>
-            <Path fileType="data">/lib64/firmware/intel/ibt-00a0-01a1-usb.ddc.zst</Path>
-            <Path fileType="data">/lib64/firmware/intel/ibt-00a0-01a1-usb.sfi.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/ibt-00a0-0291-iml.sfi.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/ibt-00a0-0291-pci.ddc.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/ibt-00a0-0291-pci.sfi.zst</Path>
-            <Path fileType="data">/lib64/firmware/intel/ibt-00a0-0291-usb.ddc.zst</Path>
-            <Path fileType="data">/lib64/firmware/intel/ibt-00a0-0291-usb.sfi.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/ibt-0180-0041.ddc.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/ibt-0180-0041.sfi.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/ibt-0180-1050.ddc.zst</Path>
@@ -3149,6 +3195,7 @@
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c102.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c103.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c106.ucode.zst</Path>
+            <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c107.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-bz-b0-fm-c0.pnvm.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-bz-b0-gf-a0-100.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-bz-b0-gf-a0-92.ucode.zst</Path>
@@ -3165,6 +3212,7 @@
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c102.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c103.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c106.ucode.zst</Path>
+            <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c107.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-cc-a0-50.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-cc-a0-59.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-cc-a0-66.ucode.zst</Path>
@@ -3186,6 +3234,7 @@
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-gl-c0-fm-c0-c102.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-gl-c0-fm-c0-c103.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-gl-c0-fm-c0-c106.ucode.zst</Path>
+            <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-gl-c0-fm-c0-c107.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-gl-c0-fm-c0.pnvm.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-ma-b0-gf-a0-83.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-ma-b0-gf-a0-86.ucode.zst</Path>
@@ -3202,12 +3251,14 @@
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c102.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c103.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c106.ucode.zst</Path>
+            <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c107.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-sc-a0-gf-a0-100.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-sc-a0-wh-b0-101.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c101.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c102.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c103.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c106.ucode.zst</Path>
+            <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c107.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-so-a0-gf-a0-72.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-so-a0-gf-a0-73.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/intel/iwlwifi/iwlwifi-so-a0-gf-a0-74.ucode.zst</Path>
@@ -3366,6 +3417,7 @@
             <Path fileType="data">/lib64/firmware/iwlwifi-bz-b0-fm-c0-c102.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-bz-b0-fm-c0-c103.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-bz-b0-fm-c0-c106.ucode.zst</Path>
+            <Path fileType="data">/lib64/firmware/iwlwifi-bz-b0-fm-c0-c107.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-bz-b0-fm-c0.pnvm.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-bz-b0-gf-a0-100.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-bz-b0-gf-a0-92.ucode.zst</Path>
@@ -3382,6 +3434,7 @@
             <Path fileType="data">/lib64/firmware/iwlwifi-bz-b0-wh-b0-c102.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-bz-b0-wh-b0-c103.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-bz-b0-wh-b0-c106.ucode.zst</Path>
+            <Path fileType="data">/lib64/firmware/iwlwifi-bz-b0-wh-b0-c107.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-cc-a0-50.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-cc-a0-59.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-cc-a0-66.ucode.zst</Path>
@@ -3403,6 +3456,7 @@
             <Path fileType="data">/lib64/firmware/iwlwifi-gl-c0-fm-c0-c102.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-gl-c0-fm-c0-c103.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-gl-c0-fm-c0-c106.ucode.zst</Path>
+            <Path fileType="data">/lib64/firmware/iwlwifi-gl-c0-fm-c0-c107.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-gl-c0-fm-c0.pnvm.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-ma-b0-gf-a0-83.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-ma-b0-gf-a0-86.ucode.zst</Path>
@@ -3419,12 +3473,14 @@
             <Path fileType="data">/lib64/firmware/iwlwifi-sc-a0-fm-c0-c102.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-sc-a0-fm-c0-c103.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-sc-a0-fm-c0-c106.ucode.zst</Path>
+            <Path fileType="data">/lib64/firmware/iwlwifi-sc-a0-fm-c0-c107.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-sc-a0-gf-a0-100.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-sc-a0-wh-b0-101.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-sc-a0-wh-b0-c101.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-sc-a0-wh-b0-c102.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-sc-a0-wh-b0-c103.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-sc-a0-wh-b0-c106.ucode.zst</Path>
+            <Path fileType="data">/lib64/firmware/iwlwifi-sc-a0-wh-b0-c107.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-so-a0-gf-a0-72.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-so-a0-gf-a0-73.ucode.zst</Path>
             <Path fileType="data">/lib64/firmware/iwlwifi-so-a0-gf-a0-74.ucode.zst</Path>
@@ -4177,6 +4233,8 @@
             <Path fileType="data">/lib64/firmware/qca/hmtbtfw20.tlv.zst</Path>
             <Path fileType="data">/lib64/firmware/qca/hmtnv20.b10f.zst</Path>
             <Path fileType="data">/lib64/firmware/qca/hmtnv20.b112.zst</Path>
+            <Path fileType="data">/lib64/firmware/qca/hmtnv20.b201.zst</Path>
+            <Path fileType="data">/lib64/firmware/qca/hmtnv20.b202.zst</Path>
             <Path fileType="data">/lib64/firmware/qca/hmtnv20.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/qca/hpbtfw21.tlv.zst</Path>
             <Path fileType="data">/lib64/firmware/qca/hpnv21.301.zst</Path>
@@ -4256,8 +4314,11 @@
             <Path fileType="data">/lib64/firmware/qca/nvm_usb_00190200_0110.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/qca/nvm_usb_00190200_0111.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/qca/nvm_usb_00190200_0112.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/qca/ornbcscal10.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/qca/ornbcscal11.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/qca/ornbtfw10.tlv.zst</Path>
             <Path fileType="data">/lib64/firmware/qca/ornbtfw11.tlv.zst</Path>
+            <Path fileType="data">/lib64/firmware/qca/ornnv10.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/qca/ornnv11.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/qca/rampatch_00130300.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/qca/rampatch_00130302.bin.zst</Path>
@@ -4509,6 +4570,9 @@
             <Path fileType="data">/lib64/firmware/sb16/ima_adpcm_init.csp.zst</Path>
             <Path fileType="data">/lib64/firmware/sb16/ima_adpcm_playback.csp.zst</Path>
             <Path fileType="data">/lib64/firmware/sb16/mulaw_main.csp.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/1028/cs42l45_v20260225.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/1028/cs42l45_v20260615.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/1028/cs42l45_v20260703.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/sdca/1fa/1028/db3/1.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/sdca/1fa/1028/db3/2.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/sdca/1fa/1028/db3/3.bin.zst</Path>
@@ -4679,6 +4743,37 @@
             <Path fileType="data">/lib64/firmware/sdca/1fa/1028/e85/3.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/sdca/1fa/1028/e85/4.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/sdca/1fa/1028/e85/42450005.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/1028/efb/1.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/1028/efb/2.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/1028/efb/3.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/1028/efb/4.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/1028/efb/42450005.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/1028/efc/1.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/1028/efc/2.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/1028/efc/3.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/1028/efc/4.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/1028/efc/42450005.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/144d/c1dc/1.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/144d/c1dc/2.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/144d/c1dc/3.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/144d/c1dc/4.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/144d/c1dc/42450005.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/144d/c1de/1.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/144d/c1de/2.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/144d/c1de/3.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/144d/c1de/4.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/144d/c1de/42450005.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/144d/c910/1.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/144d/c910/2.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/144d/c910/3.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/144d/c910/4.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/144d/c910/42450005.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/144d/ca0a/1.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/144d/ca0a/2.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/144d/ca0a/3.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/144d/ca0a/4.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/144d/ca0a/42450005.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/144d/cs42l45_v20260820.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/sdca/1fa/17aa/2352/1.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/sdca/1fa/17aa/2352/2.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/sdca/1fa/17aa/2352/3.bin.zst</Path>
@@ -4699,6 +4794,11 @@
             <Path fileType="data">/lib64/firmware/sdca/1fa/17aa/5159/3.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/sdca/1fa/17aa/5159/4.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/sdca/1fa/17aa/5159/42450005.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/17aa/cs42l45_v20260522.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/cs42l45_primer1.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/cs42l45_primer2.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/cs42l45_primer3.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/sdca/1fa/cs42l45_primer4.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/sdd_sagrad_1091_1098.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/slicoss/gbdownload.sys.zst</Path>
             <Path fileType="data">/lib64/firmware/slicoss/gbrcvucode.sys.zst</Path>
@@ -4716,6 +4816,7 @@
             <Path fileType="data">/lib64/firmware/tas2572-2-1amp-reg.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/tas2572-3-1amp-reg.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/tas2572-3amp-reg.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/tas2573-2amp-reg.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/tas257x-1amp-reg.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/tdmb_nova_12mhz.inp.zst</Path>
             <Path fileType="data">/lib64/firmware/tehuti/bdx.bin.zst</Path>
@@ -4763,6 +4864,7 @@
             <Path fileType="data">/lib64/firmware/ti/audio/tas257x/tas2572-2-1amp-reg.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/ti/audio/tas257x/tas2572-3-1amp-reg.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/ti/audio/tas257x/tas2572-3amp-reg.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/ti/audio/tas257x/tas2573-2amp-reg.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/ti/audio/tas257x/tas257x-1amp-reg.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/ti/audio/tas2781/TAS2XXX0C94.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/ti/audio/tas2781/TAS2XXX0C95.bin.zst</Path>
@@ -6487,6 +6589,11 @@
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l41-dsp1-spk-prot-104318d3-spkid1-l0.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l41-dsp1-spk-prot-104318d3-spkid1-r0.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l41-dsp1-spk-prot-104318d3.wmfw.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l41-dsp1-spk-prot-104319f4-spkid0-l0.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l41-dsp1-spk-prot-104319f4-spkid0-r0.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l41-dsp1-spk-prot-104319f4-spkid1-l0.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l41-dsp1-spk-prot-104319f4-spkid1-r0.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l41-dsp1-spk-prot-104319f4.wmfw.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l41-dsp1-spk-prot-10431a63-spkid0-l0.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l41-dsp1-spk-prot-10431a63-spkid0-l0.bincfg.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l41-dsp1-spk-prot-10431a63-spkid0-r0.bin.zst</Path>
@@ -6919,6 +7026,11 @@
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l54-b0-dsp1-misc-103c8e1a-amp1.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l54-b0-dsp1-misc-103c8e1a-amp2.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l54-b0-dsp1-misc-103c8e1a.wmfw.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l54-b0-dsp1-misc-103c900c-amp1.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l54-b0-dsp1-misc-103c900c-amp2.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l54-b0-dsp1-misc-103c900c-amp3.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l54-b0-dsp1-misc-103c900c-amp4.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l54-b0-dsp1-misc-103c900c.wmfw.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp1.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp2.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp3.bin.zst</Path>
@@ -7141,6 +7253,9 @@
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10431c63-spkid1-amp1.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10431c63-spkid1-amp2.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10431c63-spkid1.wmfw.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10431c74-l2u0.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10431c74-l2u1.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10431c74.wmfw.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10431df3-amp1.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10431df3-amp2.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-10431df3-amp3.bin.zst</Path>
@@ -7252,9 +7367,12 @@
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa391e-spkid0-amp1.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa391e-spkid0-amp2.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa391e-spkid0.wmfw.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa3921-amp1.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa3921-amp2.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa3921-spkid1-amp1.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa3921-spkid1-amp2.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa3921-spkid1.wmfw.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa3921.wmfw.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa392c-spkid1-amp1.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa392c-spkid1-amp2.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b0-dsp1-misc-17aa392c-spkid1.wmfw.zst</Path>
@@ -7307,6 +7425,15 @@
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e53-spkid3-ampl.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e53-spkid3-ampr.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e53-spkid3.wmfw.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid1-ampl.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid1-ampr.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid1.wmfw.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid2-ampl.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid2-ampr.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid2.wmfw.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid3-ampl.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid3-ampr.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid3.wmfw.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56/CS35L56_Rev3.11.11.1.wmfw.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56/CS35L56_Rev3.11.11.wmfw.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l56/CS35L56_Rev3.11.16.wmfw.zst</Path>
@@ -7788,6 +7915,30 @@
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid3-04-l3u1.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid3-04-l3u3.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid3.wmfw.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid0-02-l1u1.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid0-02-l1u3.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid0.wmfw.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid1-02-l1u1.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid1-02-l1u3.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid1.wmfw.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid2-02-l1u1.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid2-02-l1u3.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid2.wmfw.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid3-02-l1u1.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid3-02-l1u3.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid3.wmfw.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid0-05-l1u1.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid0-05-l1u3.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid0.wmfw.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid1-05-l1u1.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid1-05-l1u3.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid1.wmfw.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid2-05-l1u1.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid2-05-l1u3.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid2.wmfw.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid3-05-l1u1.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid3-05-l1u3.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid3.wmfw.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-17aa2352-l2u0.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-17aa2352-l2u1.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/cirrus/cs35l63-a1-dsp1-misc-17aa2352.wmfw.zst</Path>
@@ -7948,6 +8099,7 @@
             <Path fileType="library">/usr/lib64/firmware/intel/avs/hda-808628xx-3ep-tplg.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/avs/hda-generic-1ep-tplg.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/avs/hda-generic-tplg.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/intel/avs/lkf/dsp_basefw.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/avs/max98357a-tplg.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/avs/max98373-tplg.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/avs/max98927-tplg.bin.zst</Path>
@@ -8014,13 +8166,9 @@
             <Path fileType="library">/usr/lib64/firmware/intel/ibt-00a0-01a1-iml.sfi.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/ibt-00a0-01a1-pci.ddc.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/ibt-00a0-01a1-pci.sfi.zst</Path>
-            <Path fileType="library">/usr/lib64/firmware/intel/ibt-00a0-01a1-usb.ddc.zst</Path>
-            <Path fileType="library">/usr/lib64/firmware/intel/ibt-00a0-01a1-usb.sfi.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/ibt-00a0-0291-iml.sfi.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/ibt-00a0-0291-pci.ddc.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/ibt-00a0-0291-pci.sfi.zst</Path>
-            <Path fileType="library">/usr/lib64/firmware/intel/ibt-00a0-0291-usb.ddc.zst</Path>
-            <Path fileType="library">/usr/lib64/firmware/intel/ibt-00a0-0291-usb.sfi.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/ibt-0180-0041.ddc.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/ibt-0180-0041.sfi.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/ibt-0180-1050.ddc.zst</Path>
@@ -8215,6 +8363,7 @@
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c102.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c103.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c106.ucode.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c107.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-bz-b0-fm-c0.pnvm.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-bz-b0-gf-a0-100.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-bz-b0-gf-a0-92.ucode.zst</Path>
@@ -8231,6 +8380,7 @@
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c102.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c103.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c106.ucode.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c107.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-cc-a0-50.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-cc-a0-59.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-cc-a0-66.ucode.zst</Path>
@@ -8252,6 +8402,7 @@
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-gl-c0-fm-c0-c102.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-gl-c0-fm-c0-c103.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-gl-c0-fm-c0-c106.ucode.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-gl-c0-fm-c0-c107.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-gl-c0-fm-c0.pnvm.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-ma-b0-gf-a0-83.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-ma-b0-gf-a0-86.ucode.zst</Path>
@@ -8268,12 +8419,14 @@
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c102.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c103.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c106.ucode.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c107.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-sc-a0-gf-a0-100.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-sc-a0-wh-b0-101.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c101.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c102.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c103.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c106.ucode.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c107.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-so-a0-gf-a0-72.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-so-a0-gf-a0-73.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/intel/iwlwifi/iwlwifi-so-a0-gf-a0-74.ucode.zst</Path>
@@ -8432,6 +8585,7 @@
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-bz-b0-fm-c0-c102.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-bz-b0-fm-c0-c103.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-bz-b0-fm-c0-c106.ucode.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/iwlwifi-bz-b0-fm-c0-c107.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-bz-b0-fm-c0.pnvm.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-bz-b0-gf-a0-100.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-bz-b0-gf-a0-92.ucode.zst</Path>
@@ -8448,6 +8602,7 @@
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-bz-b0-wh-b0-c102.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-bz-b0-wh-b0-c103.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-bz-b0-wh-b0-c106.ucode.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/iwlwifi-bz-b0-wh-b0-c107.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-cc-a0-50.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-cc-a0-59.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-cc-a0-66.ucode.zst</Path>
@@ -8469,6 +8624,7 @@
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-gl-c0-fm-c0-c102.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-gl-c0-fm-c0-c103.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-gl-c0-fm-c0-c106.ucode.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/iwlwifi-gl-c0-fm-c0-c107.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-gl-c0-fm-c0.pnvm.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-ma-b0-gf-a0-83.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-ma-b0-gf-a0-86.ucode.zst</Path>
@@ -8485,12 +8641,14 @@
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-sc-a0-fm-c0-c102.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-sc-a0-fm-c0-c103.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-sc-a0-fm-c0-c106.ucode.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/iwlwifi-sc-a0-fm-c0-c107.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-sc-a0-gf-a0-100.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-sc-a0-wh-b0-101.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-sc-a0-wh-b0-c101.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-sc-a0-wh-b0-c102.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-sc-a0-wh-b0-c103.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-sc-a0-wh-b0-c106.ucode.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/iwlwifi-sc-a0-wh-b0-c107.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-so-a0-gf-a0-72.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-so-a0-gf-a0-73.ucode.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/iwlwifi-so-a0-gf-a0-74.ucode.zst</Path>
@@ -9243,6 +9401,8 @@
             <Path fileType="library">/usr/lib64/firmware/qca/hmtbtfw20.tlv.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qca/hmtnv20.b10f.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qca/hmtnv20.b112.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/qca/hmtnv20.b201.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/qca/hmtnv20.b202.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qca/hmtnv20.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qca/hpbtfw21.tlv.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qca/hpnv21.301.zst</Path>
@@ -9322,8 +9482,11 @@
             <Path fileType="library">/usr/lib64/firmware/qca/nvm_usb_00190200_0110.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qca/nvm_usb_00190200_0111.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qca/nvm_usb_00190200_0112.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/qca/ornbcscal10.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qca/ornbcscal11.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/qca/ornbtfw10.tlv.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qca/ornbtfw11.tlv.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/qca/ornnv10.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qca/ornnv11.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qca/rampatch_00130300.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qca/rampatch_00130302.bin.zst</Path>
@@ -9575,6 +9738,9 @@
             <Path fileType="library">/usr/lib64/firmware/sb16/ima_adpcm_init.csp.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/sb16/ima_adpcm_playback.csp.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/sb16/mulaw_main.csp.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/1028/cs42l45_v20260225.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/1028/cs42l45_v20260615.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/1028/cs42l45_v20260703.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/sdca/1fa/1028/db3/1.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/sdca/1fa/1028/db3/2.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/sdca/1fa/1028/db3/3.bin.zst</Path>
@@ -9745,6 +9911,37 @@
             <Path fileType="library">/usr/lib64/firmware/sdca/1fa/1028/e85/3.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/sdca/1fa/1028/e85/4.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/sdca/1fa/1028/e85/42450005.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/1028/efb/1.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/1028/efb/2.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/1028/efb/3.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/1028/efb/4.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/1028/efb/42450005.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/1028/efc/1.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/1028/efc/2.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/1028/efc/3.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/1028/efc/4.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/1028/efc/42450005.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/144d/c1dc/1.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/144d/c1dc/2.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/144d/c1dc/3.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/144d/c1dc/4.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/144d/c1dc/42450005.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/144d/c1de/1.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/144d/c1de/2.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/144d/c1de/3.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/144d/c1de/4.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/144d/c1de/42450005.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/144d/c910/1.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/144d/c910/2.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/144d/c910/3.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/144d/c910/4.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/144d/c910/42450005.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/144d/ca0a/1.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/144d/ca0a/2.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/144d/ca0a/3.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/144d/ca0a/4.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/144d/ca0a/42450005.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/144d/cs42l45_v20260820.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/sdca/1fa/17aa/2352/1.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/sdca/1fa/17aa/2352/2.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/sdca/1fa/17aa/2352/3.bin.zst</Path>
@@ -9765,6 +9962,11 @@
             <Path fileType="library">/usr/lib64/firmware/sdca/1fa/17aa/5159/3.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/sdca/1fa/17aa/5159/4.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/sdca/1fa/17aa/5159/42450005.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/17aa/cs42l45_v20260522.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/cs42l45_primer1.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/cs42l45_primer2.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/cs42l45_primer3.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/sdca/1fa/cs42l45_primer4.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/sdd_sagrad_1091_1098.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/slicoss/gbdownload.sys.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/slicoss/gbrcvucode.sys.zst</Path>
@@ -9782,6 +9984,7 @@
             <Path fileType="library">/usr/lib64/firmware/tas2572-2-1amp-reg.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/tas2572-3-1amp-reg.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/tas2572-3amp-reg.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/tas2573-2amp-reg.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/tas257x-1amp-reg.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/tdmb_nova_12mhz.inp.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/tehuti/bdx.bin.zst</Path>
@@ -9829,6 +10032,7 @@
             <Path fileType="library">/usr/lib64/firmware/ti/audio/tas257x/tas2572-2-1amp-reg.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/ti/audio/tas257x/tas2572-3-1amp-reg.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/ti/audio/tas257x/tas2572-3amp-reg.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/ti/audio/tas257x/tas2573-2amp-reg.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/ti/audio/tas257x/tas257x-1amp-reg.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/ti/audio/tas2781/TAS2XXX0C94.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/ti/audio/tas2781/TAS2XXX0C95.bin.zst</Path>
@@ -10361,6 +10565,7 @@
             <Path fileType="data">/lib64/firmware/amdgpu/dcn_3_5_dmcub.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/dcn_3_6_dmcub.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/dcn_4_0_1_dmcub.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/amdgpu/dcn_4_2_dmcub.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/dimgrey_cavefish_ce.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/dimgrey_cavefish_dmcub.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/dimgrey_cavefish_me.bin.zst</Path>
@@ -10467,6 +10672,20 @@
             <Path fileType="data">/lib64/firmware/amdgpu/gc_11_5_3_mes_2.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/gc_11_5_3_pfp.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/gc_11_5_3_rlc.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/amdgpu/gc_11_7_0_imu.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/amdgpu/gc_11_7_0_me.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/amdgpu/gc_11_7_0_mec.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/amdgpu/gc_11_7_0_mes1.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/amdgpu/gc_11_7_0_mes_2.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/amdgpu/gc_11_7_0_pfp.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/amdgpu/gc_11_7_0_rlc.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/amdgpu/gc_11_7_1_imu.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/amdgpu/gc_11_7_1_me.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/amdgpu/gc_11_7_1_mec.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/amdgpu/gc_11_7_1_mes1.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/amdgpu/gc_11_7_1_mes_2.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/amdgpu/gc_11_7_1_pfp.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/amdgpu/gc_11_7_1_rlc.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/gc_12_0_0_imu.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/gc_12_0_0_me.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/gc_12_0_0_mec.bin.zst</Path>
@@ -10746,6 +10965,10 @@
             <Path fileType="data">/lib64/firmware/amdgpu/psp_14_0_4_toc.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/psp_14_0_5_ta.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/psp_14_0_5_toc.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/amdgpu/psp_15_0_0_ta.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/amdgpu/psp_15_0_0_toc.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/amdgpu/psp_15_0_9_ta.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/amdgpu/psp_15_0_9_toc.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/raven2_asd.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/raven2_ce.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/raven2_gpu_info.bin.zst</Path>
@@ -10797,6 +11020,7 @@
             <Path fileType="data">/lib64/firmware/amdgpu/sdma_6_1_1.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/sdma_6_1_2.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/sdma_6_1_3.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/amdgpu/sdma_6_1_4.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/sdma_7_0_0.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/sdma_7_0_1.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/si58_mc.bin.zst</Path>
@@ -10884,6 +11108,7 @@
             <Path fileType="data">/lib64/firmware/amdgpu/vcn_4_0_6_1.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/vcn_5_0_0.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/vcn_5_0_1.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/amdgpu/vcn_5_3_0.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/vega10_acg_smc.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/vega10_asd.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/vega10_ce.bin.zst</Path>
@@ -10949,6 +11174,7 @@
             <Path fileType="data">/lib64/firmware/amdgpu/verde_rlc.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/verde_smc.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/verde_uvd.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/amdgpu/vpe_2_0_0.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/vpe_6_1_0.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/vpe_6_1_1.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/amdgpu/vpe_6_1_3.bin.zst</Path>
@@ -11297,6 +11523,7 @@
             <Path fileType="library">/usr/lib64/firmware/amdgpu/dcn_3_5_dmcub.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/dcn_3_6_dmcub.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/dcn_4_0_1_dmcub.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/amdgpu/dcn_4_2_dmcub.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/dimgrey_cavefish_ce.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/dimgrey_cavefish_dmcub.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/dimgrey_cavefish_me.bin.zst</Path>
@@ -11403,6 +11630,20 @@
             <Path fileType="library">/usr/lib64/firmware/amdgpu/gc_11_5_3_mes_2.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/gc_11_5_3_pfp.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/gc_11_5_3_rlc.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/amdgpu/gc_11_7_0_imu.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/amdgpu/gc_11_7_0_me.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/amdgpu/gc_11_7_0_mec.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/amdgpu/gc_11_7_0_mes1.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/amdgpu/gc_11_7_0_mes_2.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/amdgpu/gc_11_7_0_pfp.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/amdgpu/gc_11_7_0_rlc.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/amdgpu/gc_11_7_1_imu.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/amdgpu/gc_11_7_1_me.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/amdgpu/gc_11_7_1_mec.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/amdgpu/gc_11_7_1_mes1.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/amdgpu/gc_11_7_1_mes_2.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/amdgpu/gc_11_7_1_pfp.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/amdgpu/gc_11_7_1_rlc.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/gc_12_0_0_imu.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/gc_12_0_0_me.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/gc_12_0_0_mec.bin.zst</Path>
@@ -11682,6 +11923,10 @@
             <Path fileType="library">/usr/lib64/firmware/amdgpu/psp_14_0_4_toc.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/psp_14_0_5_ta.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/psp_14_0_5_toc.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/amdgpu/psp_15_0_0_ta.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/amdgpu/psp_15_0_0_toc.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/amdgpu/psp_15_0_9_ta.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/amdgpu/psp_15_0_9_toc.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/raven2_asd.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/raven2_ce.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/raven2_gpu_info.bin.zst</Path>
@@ -11733,6 +11978,7 @@
             <Path fileType="library">/usr/lib64/firmware/amdgpu/sdma_6_1_1.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/sdma_6_1_2.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/sdma_6_1_3.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/amdgpu/sdma_6_1_4.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/sdma_7_0_0.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/sdma_7_0_1.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/si58_mc.bin.zst</Path>
@@ -11820,6 +12066,7 @@
             <Path fileType="library">/usr/lib64/firmware/amdgpu/vcn_4_0_6_1.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/vcn_5_0_0.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/vcn_5_0_1.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/amdgpu/vcn_5_3_0.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/vega10_acg_smc.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/vega10_asd.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/vega10_ce.bin.zst</Path>
@@ -11885,6 +12132,7 @@
             <Path fileType="library">/usr/lib64/firmware/amdgpu/verde_rlc.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/verde_smc.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/verde_uvd.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/amdgpu/vpe_2_0_0.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/vpe_6_1_0.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/vpe_6_1_1.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/amdgpu/vpe_6_1_3.bin.zst</Path>
@@ -12977,6 +13225,9 @@
             <Path fileType="data">/lib64/firmware/qcom/apq8096/mba.mbn.zst</Path>
             <Path fileType="data">/lib64/firmware/qcom/apq8096/modem.mbn.zst</Path>
             <Path fileType="data">/lib64/firmware/qcom/apq8096/modemr.jsn</Path>
+            <Path fileType="data">/lib64/firmware/qcom/eliza/cdsp.mbn.zst</Path>
+            <Path fileType="data">/lib64/firmware/qcom/eliza/cdsp_dtb.mbn.zst</Path>
+            <Path fileType="data">/lib64/firmware/qcom/eliza/cdspr.jsn</Path>
             <Path fileType="data">/lib64/firmware/qcom/eliza/gen71700_zap.mbn.zst</Path>
             <Path fileType="data">/lib64/firmware/qcom/gen70500_gmu.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/qcom/gen70500_sqe.fw.zst</Path>
@@ -13030,6 +13281,17 @@
             <Path fileType="data">/lib64/firmware/qcom/kaanapali/soccpr.jsn</Path>
             <Path fileType="data">/lib64/firmware/qcom/leia_pfp_470.fw.zst</Path>
             <Path fileType="data">/lib64/firmware/qcom/leia_pm4_470.fw.zst</Path>
+            <Path fileType="data">/lib64/firmware/qcom/nord/adsp.mbn.zst</Path>
+            <Path fileType="data">/lib64/firmware/qcom/nord/adsp1.mbn.zst</Path>
+            <Path fileType="data">/lib64/firmware/qcom/nord/adsp1_dtb.mbn.zst</Path>
+            <Path fileType="data">/lib64/firmware/qcom/nord/adsp1r.jsn</Path>
+            <Path fileType="data">/lib64/firmware/qcom/nord/adsp_dtb.mbn.zst</Path>
+            <Path fileType="data">/lib64/firmware/qcom/nord/adspr.jsn</Path>
+            <Path fileType="data">/lib64/firmware/qcom/nord/adspua.jsn</Path>
+            <Path fileType="data">/lib64/firmware/qcom/nord/cdsp.mbn.zst</Path>
+            <Path fileType="data">/lib64/firmware/qcom/nord/cdsp_dtb.mbn.zst</Path>
+            <Path fileType="data">/lib64/firmware/qcom/nord/cdspr.jsn</Path>
+            <Path fileType="data">/lib64/firmware/qcom/nord/qupv3fw.elf.zst</Path>
             <Path fileType="data">/lib64/firmware/qcom/qcm2290/a702_zap.mbn.zst</Path>
             <Path fileType="data">/lib64/firmware/qcom/qcm2290/adsp.mbn.zst</Path>
             <Path fileType="data">/lib64/firmware/qcom/qcm2290/adspr.jsn</Path>
@@ -13094,7 +13356,7 @@
             <Path fileType="data">/lib64/firmware/qcom/qcs8300/cdsp0.mbn.zst</Path>
             <Path fileType="data">/lib64/firmware/qcom/qcs8300/cdspr.jsn</Path>
             <Path fileType="data">/lib64/firmware/qcom/qcs8300/gpdsp0.mbn.zst</Path>
-            <Path fileType="data">/lib64/firmware/qcom/qcs8300/gpdspr.jsn</Path>
+            <Path fileType="data">/lib64/firmware/qcom/qcs8300/gpdspr.jsn.zst</Path>
             <Path fileType="data">/lib64/firmware/qcom/qcs8300/qupv3fw.elf.zst</Path>
             <Path fileType="data">/lib64/firmware/qcom/qcs9100/LEMANS-EVK-tplg.bin.zst</Path>
             <Path fileType="data">/lib64/firmware/qcom/qdu100/abl_userdebug.elf.zst</Path>
@@ -13155,6 +13417,8 @@
             <Path fileType="data">/lib64/firmware/qcom/sc8280xp/LENOVO/21BX/qcslpi8280.mbn.zst</Path>
             <Path fileType="data">/lib64/firmware/qcom/sc8280xp/LENOVO/21BX/qcvss8280.mbn.zst</Path>
             <Path fileType="data">/lib64/firmware/qcom/sc8280xp/SC8280XP-LENOVO-X13S-tplg.bin.zst</Path>
+            <Path fileType="data">/lib64/firmware/qcom/sc8280xp/radxa/dragon-q8b/qcadsp8280.mbn.zst</Path>
+            <Path fileType="data">/lib64/firmware/qcom/sdm845/SHIFT/axolotl/a630_zap.mbn.zst</Path>
             <Path fileType="data">/lib64/firmware/qcom/sdm845/Thundercomm/db845c/slpi.mbn.zst</Path>
             <Path fileType="data">/lib64/firmware/qcom/sdm845/Thundercomm/db845c/slpir.jsn</Path>
             <Path fileType="data">/lib64/firmware/qcom/sdm845/Thundercomm/db845c/slpius.jsn</Path>
@@ -13235,6 +13499,7 @@
             <Path fileType="data">/lib64/firmware/qcom/vpu/vpu30_p4_s6.mbn.zst</Path>
             <Path fileType="data">/lib64/firmware/qcom/vpu/vpu30_p4_s6_16mb.mbn.zst</Path>
             <Path fileType="data">/lib64/firmware/qcom/vpu/vpu30_p4_s7.mbn.zst</Path>
+            <Path fileType="data">/lib64/firmware/qcom/vpu/vpu33_p2_s7.mbn.zst</Path>
             <Path fileType="data">/lib64/firmware/qcom/vpu/vpu33_p4.mbn.zst</Path>
             <Path fileType="data">/lib64/firmware/qcom/vpu/vpu33_p4_s7.mbn.zst</Path>
             <Path fileType="data">/lib64/firmware/qcom/vpu/vpu35_p4.mbn.zst</Path>
@@ -13353,6 +13618,9 @@
             <Path fileType="library">/usr/lib64/firmware/qcom/apq8096/mba.mbn.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/apq8096/modem.mbn.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/apq8096/modemr.jsn</Path>
+            <Path fileType="library">/usr/lib64/firmware/qcom/eliza/cdsp.mbn.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/qcom/eliza/cdsp_dtb.mbn.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/qcom/eliza/cdspr.jsn</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/eliza/gen71700_zap.mbn.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/gen70500_gmu.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/gen70500_sqe.fw.zst</Path>
@@ -13406,6 +13674,17 @@
             <Path fileType="library">/usr/lib64/firmware/qcom/kaanapali/soccpr.jsn</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/leia_pfp_470.fw.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/leia_pm4_470.fw.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/qcom/nord/adsp.mbn.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/qcom/nord/adsp1.mbn.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/qcom/nord/adsp1_dtb.mbn.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/qcom/nord/adsp1r.jsn</Path>
+            <Path fileType="library">/usr/lib64/firmware/qcom/nord/adsp_dtb.mbn.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/qcom/nord/adspr.jsn</Path>
+            <Path fileType="library">/usr/lib64/firmware/qcom/nord/adspua.jsn</Path>
+            <Path fileType="library">/usr/lib64/firmware/qcom/nord/cdsp.mbn.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/qcom/nord/cdsp_dtb.mbn.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/qcom/nord/cdspr.jsn</Path>
+            <Path fileType="library">/usr/lib64/firmware/qcom/nord/qupv3fw.elf.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/qcm2290/a702_zap.mbn.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/qcm2290/adsp.mbn.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/qcm2290/adspr.jsn</Path>
@@ -13470,7 +13749,7 @@
             <Path fileType="library">/usr/lib64/firmware/qcom/qcs8300/cdsp0.mbn.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/qcs8300/cdspr.jsn</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/qcs8300/gpdsp0.mbn.zst</Path>
-            <Path fileType="library">/usr/lib64/firmware/qcom/qcs8300/gpdspr.jsn</Path>
+            <Path fileType="library">/usr/lib64/firmware/qcom/qcs8300/gpdspr.jsn.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/qcs8300/qupv3fw.elf.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/qcs9100/LEMANS-EVK-tplg.bin.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/qdu100/abl_userdebug.elf.zst</Path>
@@ -13531,6 +13810,8 @@
             <Path fileType="library">/usr/lib64/firmware/qcom/sc8280xp/LENOVO/21BX/qcslpi8280.mbn.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/sc8280xp/LENOVO/21BX/qcvss8280.mbn.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/sc8280xp/SC8280XP-LENOVO-X13S-tplg.bin.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/qcom/sc8280xp/radxa/dragon-q8b/qcadsp8280.mbn.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/qcom/sdm845/SHIFT/axolotl/a630_zap.mbn.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/sdm845/Thundercomm/db845c/slpi.mbn.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/sdm845/Thundercomm/db845c/slpir.jsn</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/sdm845/Thundercomm/db845c/slpius.jsn</Path>
@@ -13611,6 +13892,7 @@
             <Path fileType="library">/usr/lib64/firmware/qcom/vpu/vpu30_p4_s6.mbn.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/vpu/vpu30_p4_s6_16mb.mbn.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/vpu/vpu30_p4_s7.mbn.zst</Path>
+            <Path fileType="library">/usr/lib64/firmware/qcom/vpu/vpu33_p2_s7.mbn.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/vpu/vpu33_p4.mbn.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/vpu/vpu33_p4_s7.mbn.zst</Path>
             <Path fileType="library">/usr/lib64/firmware/qcom/vpu/vpu35_p4.mbn.zst</Path>
@@ -13693,9 +13975,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="108">
-            <Date>2026-08-16</Date>
-            <Version>20260810</Version>
+        <Update release="109">
+            <Date>2026-09-12</Date>
+            <Version>20260910</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
             <Email>harvey@getsol.us</Email>
